@@ -2,16 +2,16 @@
 
 HL7 FHIR-compliant healthcare API with patient records and interoperability
 
-## 🎯 Features
+## Ships With
 
-- ✅ FHIR R4
-- ✅ HIPAA
-- ✅ Audit Logs
-- ✅ Patient Portal
-- ✅ EHR Integration
-- ✅ HL7 v2
+- FHIR R4
+- HIPAA
+- Audit Logs
+- Patient Portal
+- EHR Integration
+- HL7 v2
 
-## 🛠️ Tech Stack
+## Built With
 
 - Node.js
 - FHIR
@@ -19,7 +19,7 @@ HL7 FHIR-compliant healthcare API with patient records and interoperability
 - HL7
 - Docker
 
-## 🚀 Quick Start
+## Running Locally
 
 ```bash
 # Clone the repository
@@ -35,19 +35,19 @@ cp .env.example .env
 npm run dev
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [Getting Started](./docs/getting-started.md)
 - [API Reference](./docs/api-reference.md)
 - [Deployment Guide](./docs/deployment.md)
 - [Security Best Practices](./docs/security.md)
 
-## 🏢 Use Cases
+## Use Cases
 
 - **Healthcare**
 - **Enterprise**
 
-## 🔒 Compliance & Security
+## Compliance & Security
 
 This scaffold includes built-in compliance features for:
 - HIPAA compliance
@@ -58,14 +58,14 @@ This scaffold includes built-in compliance features for:
 - Rate limiting and DDoS protection
 - Security headers and CORS
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](./LICENSE)
 
-## 🤝 Contributing
+## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ---
 
-Built with care and coffee ☕ by [Offlabel Design](https://offlabel.design)
+Built with care and coffee by [Offlabel Design](https://offlabel.design)
