@@ -1,0 +1,28 @@
+{
+  "name": "fhir-compliant-api",
+  "version": "1.0.0",
+  "description": "HL7 FHIR-compliant healthcare API with patient records and interoperability",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest"
+  },
+  "keywords": [
+    "healthcare",
+    "enterprise"
+  ],
+  "author": "Augustus Rivers",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0",
+    "vitest": "^1.2.0"
+  }
+}

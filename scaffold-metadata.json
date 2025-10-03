@@ -1,0 +1,43 @@
+{
+  "name": "fhir-compliant-api",
+  "displayName": "FHIR Healthcare API",
+  "description": "HL7 FHIR-compliant healthcare API with patient records and interoperability",
+  "version": "1.0.0",
+  "author": "Augustus Rivers - Offlabel Design",
+  "license": "MIT",
+  "repository": "https://github.com/offlabel-scaffolds/fhir-compliant-api",
+  "tech": [
+    "Node.js",
+    "FHIR",
+    "PostgreSQL",
+    "HL7",
+    "Docker"
+  ],
+  "categories": [
+    "backend",
+    "healthcare"
+  ],
+  "usecases": [
+    "healthcare",
+    "enterprise"
+  ],
+  "priority": "high",
+  "maturity": "stable",
+  "complexity": "advanced",
+  "features": [
+    "FHIR R4",
+    "HIPAA",
+    "Audit Logs",
+    "Patient Portal",
+    "EHR Integration",
+    "HL7 v2"
+  ],
+  "hasDemo": false,
+  "hasCLI": false,
+  "securityFeatures": [
+    "HIPAA",
+    "Encryption",
+    "Audit Logs"
+  ],
+  "lastUpdated": "2025-10-03"
+}
